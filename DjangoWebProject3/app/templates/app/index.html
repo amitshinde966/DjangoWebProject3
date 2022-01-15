@@ -6,14 +6,14 @@
     <div class="wrap">
         <div class="search">
             <input id="searchText" type="text" class="searchTerm" placeholder="Search your exam" />
-            <button id="submitSearchText" type="submit" class="searchButton">
+            <button id="submitSearchText" onclick="search()" type="submit" class="searchButton">
                 <i class="fa fa-search "></i>
             </button>
         </div>
     </div>
 </div>
 {% load static %}
-<script src="{% static 'app/scripts/Custom/Search/search.js' %}"></script>
+<script src="{% static 'app/scripts/public/Search/Search.js' %}"></script>
 {% endblock %}
 
 

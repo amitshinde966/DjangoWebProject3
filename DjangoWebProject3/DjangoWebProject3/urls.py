@@ -7,12 +7,13 @@ from django.urls import path
 from django.contrib import admin
 from django.contrib.auth.views import LoginView, LogoutView
 from app import forms, views
-
+from app.API import apiHelper
 
 urlpatterns = [
     path('', views.home, name='home'),
     path('contact/', views.contact, name='contact'),
     path('about/', views.about, name='about'),
+    path('searchsyllabus', apiHelper.SearchSyllabus, name='searchsyllabus'),
     path('login/',
          LoginView.as_view
          (

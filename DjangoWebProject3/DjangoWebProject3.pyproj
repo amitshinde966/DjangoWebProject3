@@ -32,6 +32,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\API\apiHelper.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app\forms.py" />
     <Compile Include="app\models.py" />
     <Compile Include="app\tests.py" />
@@ -47,26 +50,29 @@
   <ItemGroup>
     <Folder Include="app\" />
     <Folder Include="app\migrations\" />
+    <Folder Include="app\API\" />
     <Folder Include="app\static\" />
     <Folder Include="app\static\app\" />
     <Folder Include="app\static\app\content\" />
     <Folder Include="app\static\app\content\Custom\" />
     <Folder Include="app\static\app\content\Custom\SearchBar\" />
+    <Folder Include="app\static\app\CustomScripts\Api\" />
+    <Folder Include="app\static\app\CustomScripts\Search\" />
     <Folder Include="app\static\app\fonts\" />
     <Folder Include="app\static\app\CustomScripts\" />
     <Folder Include="app\static\app\scripts\" />
-    <Folder Include="app\static\app\scripts\Custom\" />
-    <Folder Include="app\static\app\scripts\Custom\Search\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="DjangoWebProject3\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\app\content\Custom\SearchBar\searchbar.css" />
-    <Content Include="app\static\app\CustomScripts\Test.ts">
+    <Content Include="app\static\app\CustomScripts\Api\Common.ts">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="app\static\app\scripts\Custom\Search\search.js" />
+    <Content Include="app\static\app\CustomScripts\Search\Search.ts">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
