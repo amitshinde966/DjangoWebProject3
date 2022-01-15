@@ -53,6 +53,7 @@
     <Folder Include="app\static\app\content\Custom\" />
     <Folder Include="app\static\app\content\Custom\SearchBar\" />
     <Folder Include="app\static\app\fonts\" />
+    <Folder Include="app\static\app\CustomScripts\" />
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\static\app\scripts\Custom\" />
     <Folder Include="app\static\app\scripts\Custom\Search\" />
@@ -62,6 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\app\content\Custom\SearchBar\searchbar.css" />
+    <Content Include="app\static\app\CustomScripts\Test.ts">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="app\static\app\scripts\Custom\Search\search.js" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
