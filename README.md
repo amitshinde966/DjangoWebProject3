@@ -1,3 +1,6 @@
-# DjangoWebProject3
+Setup
 
-https://www.youtube.com/watch?v=hcuKd-Q_tP8&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&index=11
+1: Download Visual Studio 2022
+2: Install Node (npm)
+3: Install typescript ---> npm install -g typescript 
+4: tsc -w
